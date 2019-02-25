@@ -48,7 +48,7 @@ if tweet.length > 140
   word_substituter(tweet)
 else
  tweet
-end
+  end
 end
 
 
@@ -59,4 +59,4 @@ end
    tweet[0..136] + "..."
   else
    tweet
-  end
+end
