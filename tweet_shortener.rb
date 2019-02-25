@@ -1,4 +1,4 @@
-def dictionary 
+def dictionary
 hash = {
     "Hello" => "hi",
     "to" => '2',
@@ -17,7 +17,7 @@ def word_substituter (str)
   array = str.split(" ")
   array.each_with_index do |words,index|
     dictionary.keys.each do |x|
-      if x == words 
+      if x == words
       array[index] = dictionary[x]
     end
       end
@@ -46,7 +46,7 @@ end
  def selective_tweet_shortener (tweet)
 if tweet.length > 140
   word_substituter(tweet)
-else 
+else
  tweet
 end
 end
